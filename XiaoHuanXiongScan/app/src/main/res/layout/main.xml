@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="去扫描"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="有报错和机型问题请联系QQ:172864659，或加QQ群46523908,大家一起弄一个牛B的扫码来。除了微信，我没找到比这个识别率更高，识别更快的扫码，但是这个的机型兼容性未知。大家能修改这个扫码后让它更快更准的麻烦一定通知我，多谢。。"/>
+
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这个扫码只适配了armeabi,我复制了一份so到armeabi-v7a，如果删除其它cpu文件不知道有没有影响啊，如果其它cpu文件里还有高德地图和极光"/>
+
+</LinearLayout>
